@@ -21,7 +21,7 @@ def input_to_index(string)
   string.to_i - 1
 end
 
-def move(board, index, token = "X")
+def move(board, index, token)
   board[index] = token
 end
 
