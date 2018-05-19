@@ -96,7 +96,7 @@ def winner(board)
 end
 
 def play(board)
-  until over?(board) && !won?(board) && !draw?(board)
+  while !over?(board)
     turn(board)
   end
 
